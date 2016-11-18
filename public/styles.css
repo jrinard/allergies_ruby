@@ -1,0 +1,10 @@
+h1 {
+  color: blue;
+}
+
+
+#img {
+  background-image: url("pic.jpg");
+  height: 136px;
+  width: 436px;
+}
