@@ -1,0 +1,11 @@
+<h1>Allergies</h1>
+<form action="/result">
+  <div class="form-group">
+    <label for="score">Enter allergy score:</label>
+    <input id="score" type="text" name="score" class="form-control">
+  </div>
+  <button type="submit" class="btn-success">Go</button>
+</form>
+
+<h1>You are allergic to:</h1>
+<h2><%= @result %></h2>
